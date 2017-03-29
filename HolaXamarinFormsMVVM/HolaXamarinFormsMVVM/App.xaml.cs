@@ -13,7 +13,7 @@ namespace HolaXamarinFormsMVVM
         {
             InitializeComponent();
 
-            MainPage = new HolaXamarinFormsMVVM.MainPage();
+            MainPage = new Views.MainView();
         }
 
         protected override void OnStart()
